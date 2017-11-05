@@ -1,0 +1,42 @@
+﻿
+.gridSquare {
+    height:100px;
+    width:100px;
+    float:left;
+    white-space:nowrap;
+}
+
+/*borders set on both sides of a div intersection*/
+#A1, #A2, #B1, #B2, #C1, #C2 {
+    border-right:solid;
+    border-right-color:black;
+    border-right-width:thin;
+}
+
+#A1, #A2, #A3, #B1, #B2, #B3 {
+    border-bottom:solid;
+    border-bottom-color:black;
+    border-bottom-width:thin;
+}
+#A2, #A3, #B2, #B3, #C2, #C3 {
+    border-left:solid;
+    border-left-color:black;
+    border-left-width:thin;
+}
+
+#B1, #B2, #B3, #C1, #C2, #C3 {
+    border-top:solid;
+    border-top-color:black;
+    border-top-width:thin;
+}
+
+#B1, #C1, .clearLeft {
+    clear:left;
+}
+
+/*used to vertically align the team icons*/
+.verticalAlignHelper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}

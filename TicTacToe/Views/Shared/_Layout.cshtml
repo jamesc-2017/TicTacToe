@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="icon" href="~/Images/favicon.ico" type="image/x-icon" />
+    <link href="~/Content/Libraries/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/Game/site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/Game/gridStyles.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/Game/formStyles.css" rel="stylesheet" type="text/css" />
+    <script src="~/Scripts/Libraries/modernizr-2.6.2.js"></script>
+    <script src="~/Scripts/Libraries/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/Libraries/bootstrap.min.js"></script>
+</head>
+<body>
+    @RenderBody()
+
+    @*script references are after the body is loaded to allow IIFEs direct access to DOM objects*@
+    <script src="~/Scripts/Game/gridScripts.js"></script>
+    <script src="~/Scripts/Game/formScripts.js"></script>
+</body>
+</html>

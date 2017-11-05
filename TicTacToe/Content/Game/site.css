@@ -1,0 +1,12 @@
+﻿
+html body {
+    padding-top: 75px;
+    padding-bottom: 50px;
+    font-family:Consolas;
+    text-align:center;
+}
+
+/*horizontally centers the game within the browser window*/
+.game {
+    display: inline-block;
+}

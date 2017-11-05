@@ -1,0 +1,28 @@
+﻿
+#controlForm {
+    width:300px;
+}
+
+.player {
+    clear:both;
+}
+
+.playerName, .score, .playerType {
+    width:100px;
+    float:left;
+}
+
+#playerName_p1, #playerName_p2 {
+    text-align:left;
+}
+
+/*corrects the slight misalignment of the AI checkboxes*/
+.aiCheckbox {
+    position: relative;
+    bottom: 3px;
+    vertical-align: middle;
+}
+
+#inputButton {
+    width:100px;
+}

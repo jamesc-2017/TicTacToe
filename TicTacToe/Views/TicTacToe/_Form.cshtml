@@ -1,0 +1,35 @@
+﻿    <div id="controlForm">
+        <div class="player">
+            <span id="playerName_p1" class="playerName">
+                Player 1
+                <span id="outerTeam_p1" title="Click to swap" onclick="Form.SwapTeam();">
+                    (<span id="team_p1">X</span>)
+                </span>
+            </span>
+            <span id="score_p1" class="score">0</span>
+            <span class="playerType">
+                <input id="isAi_p1" class="aiCheckbox" type="checkbox" onclick="Form.SwapAiStatus();">
+                AI
+            </span>
+        </div>
+        <div class="player">
+            <span id="playerName_p2" class="playerName">
+                Player 2
+                <span id="outerTeam_p2" title="Click to swap" onclick="Form.SwapTeam();">
+                    (<span id="team_p2">O</span>)
+                </span>
+            </span>
+            <span id="score_p2" class="score">0</span>
+            <span class="playerType">
+                <input id="isAi_p2" class="aiCheckbox" type="checkbox" onclick="Form.SwapAiStatus();" checked>
+                AI
+            </span>
+        </div>
+        <div class="player">
+            <span id="playerName_ties" class="playerName">Ties</span>
+            <span id="score_ties" class="score">0</span>
+        </div>
+        <div class="clearLeft"></div>
+        <br />
+        <input id="inputButton" class="btn-primary" value="Reset" type="button" onclick="Form.Submit();" />
+    </div>
